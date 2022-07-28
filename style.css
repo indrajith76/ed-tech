@@ -4,8 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel {
-    margin-top: 64px;
+.carousel-item img {
+    min-height: 300px;
 }
 
 .carousel-item::after {
@@ -26,5 +26,28 @@
 }
 
 .carousel-caption h1 {
-    font-size: 4em;
+    font-size: 4.5em;
+    margin-top: 4%;
+}
+
+.top-space {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:992px) {
+    .carousel-caption h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    .top-space {
+        margin-top: 50px;
+    }
 }
