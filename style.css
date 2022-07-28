@@ -1,9 +1,11 @@
+/* ------fonts ---- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
 }
 
+/* ----top banner style --- */
 .carousel-item img {
     min-height: 300px;
 }
@@ -16,7 +18,7 @@
     font-size: 4.5em;
     margin-top: 4%;
 }
-
+/* ----responsive font size------ */
 @media screen and (max-width:992px) {
     .carousel-caption h1 {
         font-size: 3em;
