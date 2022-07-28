@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel {
+    margin-top: 64px;
+}
+
+.carousel-item::after {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    font-size: 4em;
+}

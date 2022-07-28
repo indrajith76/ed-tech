@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pro Edu - Professional Online Education</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
   </head>
   <body>
     <!-- header section start -->
     <header>
         <!-- navber section start -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container justify-content-between">
               <a class="navbar-brand fw-bolder fs-3 text-secondary" href="#">Pro Edu</a>
               <a class="btn btn-outline-primary ms-auto me-4 d-none d-md-block d-lg-none" href="#">Register</a>
@@ -48,12 +52,57 @@
             </div>
           </nav>
         <!-- navber section end -->
+
+        <!-- top-banner section start  -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item position-relative active" data-bs-interval="10000">
+                <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption p-0 d-none d-md-block d-lg-flex flex-column align-items-center justify-content-center h-100">
+                  <h1 class="fw-semibold text-light mt-5">Get Started Digital Learning</h1>
+                  <p class="text-light">Build your professional skill with us. You can choose various courses form this plateform and make your learning easier</p>
+                  <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+              </div>
+              <div class="carousel-item position-relative" data-bs-interval="2000">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption p-0 d-none d-md-block d-lg-flex flex-column align-items-center justify-content-center h-100">
+                  <h1 class="fw-semibold text-light mt-5">Get Started Digital Learning</h1>
+                  <p class="text-light">Build your professional skill with us. You can choose various courses form this plateform and make your learning easier.</p>
+                  <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+              </div>
+              <div class="carous position-relativeel-item">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption p-0 d-none d-md-block d-lg-flex flex-column align-items-center justify-content-center h-100">
+                  <h1 class="fw-semibold text-light mt-5">Get Started Digital Learning</h1>
+                  <p class="text-light">Build your professional skill with us. You can choose various courses form this plateform and make your learning easier</p>
+                  <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="visually">
+                <i class="fa-solid fa-chevron-left fs-3"></i>
+              </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="visually">
+                <i class="fa-solid fa-chevron-right fs-3"></i>
+              </span>
+            </button>
+          </div>
+        <!-- top-banner section end -->
     </header>
     <!-- header section end -->
 
     <!-- main section start -->
     <main>
-
+        <!-- Popular course section start -->
+        <section class="course container">
+            <h1 class="text-center fs-1">Discover Our Popular Courses</h1>
+        </section>
+        <!-- Popular course section end -->
     </main>
     <!-- main section end -->
 
